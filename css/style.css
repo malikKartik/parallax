@@ -152,10 +152,10 @@ html,body{
 }
 #home-container hr{
     position: absolute;
-    top: 35px;
+    top: 45px;
     left: 0%;
     width: 10%;
-    border: 6px solid rgba(171, 19, 34, 0.6);
+    border: 6px solid rgba(171, 19, 34, 1);
 }
 #home-container span{
     font-family: 'Montserrat', sans-serif;
@@ -184,7 +184,7 @@ html,body{
 }
 #tracks-container hr{
     position: absolute;
-    top: 35px;
+    top: 45px;
     left: 0%;
     width: 10%;
     border: 6px solid rgba(171, 19, 34, 0.6);
@@ -268,7 +268,7 @@ html,body{
 }
 #sponsors-container hr{
     position: absolute;
-    top: 35px;
+    top: 45px;
     left: 0%;
     width: 10%;
     border: 6px solid rgba(171, 19, 34, 0.6);
