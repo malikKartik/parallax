@@ -59,7 +59,20 @@ $(document).ready(function() {
     });
 
     $(".countdown")
-        .countdown("2018/03/01", function(event) {
+        .countdown("2020/02/21", function(event) {
+            $(this).html(
+                event.strftime('<div>%w <span>Weeks</span></div>  <div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
+            );
+        });
+     
+
+    $('.counter').counterUp({
+        delay: 5,
+        time: 3000
+    });
+
+    $(".countdown")
+        .countdown("2020/02/21", function(event) {
             $(this).html(
                 event.strftime('<div>%w <span>Weeks</span></div>  <div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
             );
