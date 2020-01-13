@@ -1,150 +1,701 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Parallax - 20</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="img/parallax.png" type="image/png">
-  
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Evento -Event Html Template">
+    <meta name="keywords" content="Evento , Event , Html, Template">
+    <meta name="author" content="ColorLib">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- ========== Title ========== -->
+    <title> PARALLAX - Event Html Template</title>
+    <!-- ========== Favicon Ico ========== -->
+    <!--<link rel="icon" href="fav.ico">-->
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/et-line.css" rel="stylesheet">
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">		
+    <!-- Carousel CSS -->
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    
+            
 </head>
 <body>
-  <div id="sidenav">
-		<div id="sidenav-l1">
-			<div id="filler">
-				
-			</div>
-		</div>	
-		<div id="sidenav-l2">
-			
-		</div>
-	</div>
-  <!-- <div id="loader"> -->
-    <img src="img/parallax-logo.svg" alt="parallax-logo" id="parallax-logo">
-    <img src="img/tec.svg" alt="" id="tec-logo">
-    <div id="load-details">
-      <h1>Registrations Opening Soon</h1>
-      <h3>Stay Tuned</h3>
+<div class="loader">
+    <div class="loader-outter"></div>
+    <div class="loader-inner"></div>
+</div>
+
+<!--header start here -->
+<header class="header navbar fixed-top navbar-expand-md">
+    <div class="container">
+        <a class="navbar-brand logo" href="#">
+            <img src="assets/img/tec.svg" alt="Parallax"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-text-align-right"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+            <ul class=" nav navbar-nav menu">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Tracks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">TimeLine</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">FAQs</a>
+                </li>
+                <li class="search_btn">
+                    <a  href="#">
+                       <i class="ion-ios-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-  <!-- </div> -->
-  <div id="home">
-    <div id="home-container">
-      <h1>HOME</h1>
-      <hr>
-      <!-- <img src="img/path8.png" alt="" id="path8"> -->
-      <p>Every new invention, innovation in the world arises from the looking at a problem
-        from a unique perspective, recognising that one parallel to the problem went unnoticed.
-        Welcome to Parallax. A 36-hour Hackathon during which ideas emerge as innovation 
-        the unique platform we provide. Parallax is a one of a kind event, giving the participants
-          an opportunity to boast their technical skills and also their ability to think laterally to
-        deliver innovative solutions to problems faced by industries and also the average Joe. So,
-          let your ideas run wild and explore the unexplored TECie within you. <br><br>
-        <span>Do you have what it takes to perceive every Parallel?</span></p>
+</header>
+<!--header end here-->
+
+<!--cover section slider -->
+<section id="home" class="home-cover">
+    <div class="cover_slider owl-carousel owl-theme">
+        <div class="cover_item" style="background: url('assets/img/bg/s2.jpg');">
+             <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-center">
+                            <h2 class="cover-title">
+                                Registration Opening Soon!!
+                            </h2>
+                            <strong class="cover-xl-text">PARALLAX</strong>
+
+                            <p class="cover-date">
+                                 February 2020  - VIT
+                            </p>
+                            <a href="#" class=" btn btn-primary btn-rounded" >
+                                Stay Tuned
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cover_item" style="background: url('assets/img/bg/s2.jpg');">
+            <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-left">
+                            <h2 class="cover-title">
+                                Do you have what it takes to  <br> perceive every Parallel?
+                            </h2>
+                            <strong class="cover-xl-text">PARALLAX</strong>
+                            <p class="cover-date">
+                                20-23 February 2020
+                            </p>
+                            <a href="#" class=" btn btn-primary btn-rounded" >
+                                Register Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cover_item" style="background: url('assets/img/bg/s2.jpg');">
+            <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-center">
+                            <h2 class="cover-title">
+                                Biggest Hack Of VIT !!
+                            </h2>
+                            <strong class="cover-xl-text">PARALLAX</strong>
+                            <p class="cover-date">
+                                20-24 February 2018  
+                            </p>
+                            <a href="#" class=" btn btn-primary btn-rounded" >
+                                Registration Openning Soon !
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div id="tracks">
-    <div id="tracks-container">
-      <h1>TRACKS</h1>
-      <div id="tracks-logo">
-        <div id="track-1">
-          <img class="track-logo" src="img/disaster.png" alt="">  
-          <div class="track-details">
-            <div>
-              <h3>Disaster Managment & Recovery</h3>
-              <p>Learn More</p>
-            </div>
-          </div>
-        </div>
-        <div id="track-2">
-          <img src="img/agri.png" alt="">  
-          <div class="track-details">
-            <div>
-              <h3>Agriculture Development</h3>
-              <p>Learn More</p>
-            </div>
-          </div>
-        </div>
-        <div id="track-3">
-          <img src="img/health.png" alt="">  
-          <div class="track-details">
-            <div>
-              <h3>Health Care</h3>
-              <p>Learn More</p>
-            </div>
-          </div>
-        </div>
-        <div id="track-4">
-          <img src="img/industrial.png" alt="">  
-          <div class="track-details">
-            <div>
-              <h3>Industrial Development</h3>
-              <p>Learn More</p>
-            </div>
-          </div>
-        </div>
-        <div id="track-5">
-          <img src="img/defense.png" alt="">  
-          <div class="track-details">
-            <div>
-              <h3>Defense & War Tech</h3>
-              <p>Learn More</p>
-            </div>
-          </div>
-        </div>
-        <div id="track-6">
-          <img src="img/safety.png" alt="">  
-          <div class="track-details">
-            <div>
-              <h3>Saftey and Security</h3>
-              <p>Learn More</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
+    <div class="cover_nav">
+        <ul class="cover_dots">
+           <button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button>
+
+        </ul>
     </div>
-  </div>
-  <div id="sponsors">
-    <div id="sponsors-container">
-      <h1>SPONSORS</h1>
-      <div id="sponsors-logo">
-        <div id="sponsor-1">
-          <a href="https://devfolio.co/"><img src="img/devfolio-w.png" alt="Devfolio's logo" id="devfolio" style="cursor: pointer;"></a>  
-          
-        </div>
-        <div id="sponsor-2">
-          <a href="https://matic.network/"><img src="img/matic.png" alt="Matic's logo" style="cursor: pointer;"></a>  
-          
-        </div>
-        <div id="sponsor-3">
-          <a href="https://balsamiq.com/"><img src="img/balsamiq-logo-print.png" alt="Balsamiq logo" style="cursor: pointer;"></a>  
-          
-        </div>
-        <div id="sponsor-4">
-          <a href="https://github.com/"><img src="img/GitHub_Logo_White.png" width="300" height="100" alt="Github Logo" style="cursor: pointer;"></a>
-        </div>
-        <div id="sponsor-5">
-          <img src="img/comingsoon.png" alt="">  
-          
-        </div>
-        <div id="sponsor-6">
-          <img src="img/comingsoon.png" alt="">  
-          
-        </div>
-      </div>
-      <hr>
-    </div>
-  </div>
-  
+</section>
+<!--cover section slider end -->
+
+<!--event info -->
+<section class="pt100 pb100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-calendar-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            DATE
+                        </h5>
+                        <p>
+                            12-14 february 2018
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-location-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            location
+                        </h5>
+                        <p>
+                            VIT, Vellore.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous">
+            
+        </div>
+    </div>
+</section>
+<!--event info end -->
+
+
+<!--event countdown -->
+<section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/bg-img.png');">
+    <div class="overlay_dark"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+                <h4 class="mb30 text-center color-light">Counter until the big event</h4>
+                <div class="countdown"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--event count down end-->
+
+
+<!--about the event -->
+<section class="pt100 pb100">
+    <div class="container">
+        <div class="section_title">
+            <h3 class="title">
+                Home
+            </h3>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <p>
+                    Every new invention or innovation in the world is driven by looking at problems from a unique perspective. Acknowledging that every solution can viewed through various parallels and there is always a scope of improvement is the key to cracking the perfect solution. 
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <p>
+                    Welcome to Parallax. A 36-hour
+ Hack-A-thon which will bring to you, the perfect environment to create, innovate and work towards being an avant-garde inventor. Parallax is a one of a kind event, giving the participants an opportunity to boost their technical skills and also their ability to think laterally and deliver promising solutions to real world problems.
+
+                </p>
+                <br>
+                <br>
+            </div>
+            <h4>So let your ideas run wild and explore the unexplored TEChie within you!</h4>
+        </div>
+        <br><br><br>
+
+        <!--event features-->
+        <div class="section_title">
+            <h3 class="title">
+                Tracks
+            </h3>
+        </div>
+        <div class="row justify-content-center mt30">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-earth"></i>
+                    <div class="content">
+                        <h4>Disaster Managment & Recovery</h4>
+                        <p>
+                            Disaster management and recovery involves a set of policies, tools and procedures which enable the recovery or continuation of vital technology infrastructure and systems following a natural or human-induced disaster. It focuses on IT or technology based systems to help support critical business functions.
+<br><br>
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-sun"></i>
+                    <div class="content">
+                        <h4>Agriculture Development</h4>
+                        <p>
+                            the need for technology based solutions for agricultural development is increasing exponentially, providing assistance to the crop producers in the research sphere, employing latest techniques to provide crop diversity, improve yield and controlling pests all comes under the umbrella of agricultural development.
+<br><br><br><br>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-heart-pulse"></i>
+                    <div class="content">
+                        <h4>Health Care</h4>
+                        <p>
+                           Technology plays an important role in medical care in the 21st century, as it improves the availability and immediacy of information, communication, patient satisfaction and productivity in the health sector. Use of innovative ideas and techniques to overcome limitations in the healthcare domain has a vast scope.
+<br><br><br><br><br>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-apartment"></i>
+                    <div class="content">
+                        <h4>Industrial Development</h4>
+                        <p>
+                             In the current world, technology is solely responsible for all the discoveries made. Even when an individual makes a discovery in any field, he/she has to use technology to make the discovery viable.Efficiency is one of the most important elements needed for industrial development.  Technology plays a vital role in promoting industrial efficiency.
+
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-eye"></i>
+                    <div class="content">
+                        <h4>Defence and War Tech</h4>
+                        <p>
+                             Defence is one of the most important sectors with regards to the Indian Government, the need for new technologies in this domain is boundless. Innovation in defence and war tech refers to technological advancements which reduce the number of deaths on the battlefield, improve security of classified documents, enhancement in warfare technologies etc. 
+
+
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-warning"></i>
+                    <div class="content">
+                        <h4>Safety and Security</h4>
+                        <p>
+                             Technology is becoming a game changer in the public safety arena and helped  improve the safety and efficiency of our increasingly interconnected world. We've incorporated better online illegal activity monitoring to reduce human trafficking and generated big data that helps companies glean insights and create better products.
+<br><br>
+
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--event features end-->
+    </div>
+</section>
+<!--about the event end -->
+
+
+<!--speaker section-->
+<section class="pb100">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+               Our Sponsors
+            </h3>
+        </div>
+    </div>
+    <div class="container">
+
+    <div class="row justify-content-center no-gutters">
+        <div class="col-md-3 col-sm-6" style="padding-right: 10px;padding-left: 10px">
+            <div class="speaker_box">
+                <div class="speaker_img"style="width: 200px">
+                    <img src="assets/img/speakers/s1.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Devfolio</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6"style="padding-right: 10px;padding-left: 10px">
+            <div class="speaker_box">
+                <div class="speaker_img"style="width: 200px">
+                    <img src="assets/img/speakers/s2.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Matic</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-3 col-sm-6 "style="padding-right: 10px;padding-left: 10px">
+            <div class="speaker_box">
+                <div class="speaker_img"style="width: 200px">
+                    <img src="assets/img/speakers/s3.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Sketch</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6" style="padding-right: 10px;padding-left: 10px">
+            <div class="speaker_box">
+                <div class="speaker_img"style="width: 200px">
+                    <img src="assets/img/speakers/s4.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Github</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 "style="padding-right: 10px;padding-left: 10px">
+            <div class="speaker_box">
+                <div class="speaker_img"style="width: 200px">
+                    <img src="assets/img/speakers/s5.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Balsamiq</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 style="padding-right: 10px;padding-left: 10px">
+            <div class="speaker_box">
+                <div class="speaker_img"style="width: 200px ">
+                    <img src="assets/img/speakers/s6.png"  alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">CodePark</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 "style="padding-right: 10px;padding-left: 10px">
+            <div class="speaker_box">
+                <div class="speaker_img" style="width: 200px">
+                    <img src="assets/img/speakers/s7.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">CodingBlocks</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 "style="padding-right: 10px;padding-left: 10px">
+            <div class="speaker_box">
+                <div class="speaker_img"style="width: 200px">
+                    <img src="assets/img/speakers/s8.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Bugsee</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+<!--speaker section end -->
+
+<!--Price section-->
+
+<!--price section end -->
+
+<!--event calender-->
+<section class="pb100">
+    <div class="container">
+        <div class="table-responsive">
+            <table class="event_calender table">
+                <thead class="event_title">
+                <tr>
+                    <th>
+                        <i class="ion-ios-calendar-outline"></i>
+                        <span>Time-Line</span>
+                    </th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c1.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        20
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Anna Audi</h5>
+                            <h6>08 AM - 09 AM</h6>
+                            <p>Inaugration ceremony</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c2.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        18
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Conference in Amsterdam</h5>
+                            <h6>08 AM - 04 PM</h6>
+                            <p>Speaker: Daniel Hill</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c3.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        22
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Conference in Amsterdam</h5>
+                            <h6>08 AM - 04 PM</h6>
+                            <p>Speaker: Daniel Hill</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                    </td>
+                    
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<!--event calender end -->
 </script>
-<script src="js/main.js"></script>
-</body>
+<!--brands section -->
+<section class="bg-gray pt100 pb100">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                Frequently asked questions
+            </h3>
+                  <button type="button" class="collapsible">Can I attend?</button>
+<div class="content">
+  <p>As long as you are a student at any college  are 18 or older, you are invited to apply to Parallax</p>
+</div>
+<button type="button" class="collapsible">What should I bring?</button>
+<div class="content">
+  <p>Bring a laptop for hacking and a valid student ID for admission into the event. We will provide everything else and more, including food, free swag, and hacker love.</p>
+</div>
+<button type="button" class="collapsible">What will I eat?</button>
+<div class="content">
+  <p>We will provide all meals between dinner on Friday and brunch on Sunday (plus snacks available at any time of the day or night!). If you have any dietary restrictions, please let us know and we will do our best to accommodate them.</p>
+</div>
+<button type="button" class="collapsible">How do teams work?</button>
+<div class="content">
+  <p>Each team consists of a maximum of four members. You can create a team and designate teammates during registration, or you can register as an individual. All teammates must submit their individual applications nonetheless. Admission decisions will be all-or-none, so either all of your teammates will receive admission if selected or none of your teammates will receive admission.</p>
+</div>
+  
+  <button type="button" class="collapsible">I don't code -- what about me?</button>
+<div class="content">
+  <p>Not all hackers code! In fact, you've found the perfect place and time to pick up new skills and concepts. There will be mentors, to help ease you through the hackathon experience. Applications are not filtered based on experience.</p>
+</div>
+</div>
+    </div>
+ </div>
+        </div>
+       
+    </div>
+</section>
+<!--brands section end-->
 
+<!--get tickets section -->
+<section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
+    <div class="container">
+        <div class="section_title mb30">
+            <h3 class="title color-light">
+                
+            </h3>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-9 text-md-left text-center color-light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+            </div>
+            <div class="col-md-3 text-md-right text-center">
+                <a href="#" class="btn btn-primary btn-rounded mt30">Register Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--get tickets section end-->
+
+<!--footer start -->
+<footer>
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-md-4 col-12">
+                <div class="footer_box">
+                    <div class="footer_header">
+                         <h3 class="title">
+                            Our Social Media links !
+                        </h3>
+                        
+                    </div>
+                    <div class="footer_box_body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                        </p>
+                        <ul class="footer_social">
+                            <li>
+                                <a href="#"><i class="ion-social-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-facebook"></i></a>
+                            </li>
+                           
+                         
+                            <li>
+                                <a href="#"><i class="ion-social-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        
+
+            
+        </div>
+    </div>
+</footer>
+<div class="copyright_footer">
+    <div class="container">
+        <div class="row justify-content-center">
+           
+            <div class="col-12 col-md-6 ">
+                <ul class="footer_menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Speakers</a>
+                    </li>
+                    <li>
+                        <a href="#">Events</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer end -->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<!--slick carousel -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--parallax -->
+<script src="assets/js/parallax.min.js"></script>
+<!--Counter up -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!--Counter down -->
+<script src="assets/js/jquery.countdown.min.js"></script>
+<!-- WOW JS -->
+<script src="assets/js/wow.min.js"></script>
+<!-- Custom js -->
+<script src="assets/js/main.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    let devfolioOptions = {
+        buttonSelector: '#devf
+olio-apply-now',
+        key: 'myhackathonkey',
+    }
+
+    let script = document.createElement('script');
+    script.src = "https://apply.devfolio.co";
+    document.head.append(script);
+
+    script.onload = function () {
+        new Devfolio(devfolioOptions);
+    }
+
+    script.onerror = function () {
+        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+        });
+    }
+});
+</script>
+</body>
 </html>
