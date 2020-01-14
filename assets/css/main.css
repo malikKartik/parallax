@@ -26,6 +26,9 @@
 /* ----------------IMPORT GOOGLE FONTS ------------------- */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900");
 /* ----------------Text Fonts ------------------- */
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-size: 14px;
   line-height: 25px;
