@@ -75,7 +75,7 @@ h1{
  .timeline .event:before {
    left: -217.5px;
    color: white;
-   color: rgba(255,255,255,0.4);
+   color: white;
    content: attr(data-date);
    text-align: right;
    font-weight: 100;
