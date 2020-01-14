@@ -2669,7 +2669,6 @@ Cover
 -------------------------------------------------------- */
 .table.event_calender {
   position: relative;
-  min-width: 1000px;
 }
 .table.event_calender thead.event_title {
   background-color: #f50136;
