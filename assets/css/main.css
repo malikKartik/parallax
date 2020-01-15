@@ -3196,7 +3196,7 @@ textarea.form-control {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
-    background-color: black;
+    background-color: red;
     border-radius: 3px;
     border: none;
     color: #FFFFFF;
@@ -3216,7 +3216,7 @@ textarea.form-control {
 }
 
 #devfolio-apply-now:hover {
-    background-color: #2954BF !important;
+    background-color: red !important;
 }
 .locate_date{
 }
