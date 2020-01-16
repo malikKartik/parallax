@@ -646,27 +646,5 @@ for (i = 0; i < coll.length; i++) {
 <script src="assets/js/main.js"></script>
 <!-- Compiled and minified JavaScript -->
 <script src="assets/js/app.js"></script>
-<script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', function () {
-    let devfolioOptions = {
-        buttonSelector: '#devfolio-apply-now',
-        key: 'Parallax',
-    }
-
-    let script = document.createElement('script');
-    script.src = "https://apply.devfolio.co";
-    document.head.append(script);
-
-    script.onload = function () {
-        new Devfolio(devfolioOptions);
-    }
-
-    script.onerror = function () {
-        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-        });
-    }
-});
-</script>
 </body>
 </html>
