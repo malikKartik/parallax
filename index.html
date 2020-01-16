@@ -308,20 +308,6 @@ box-shadow: inset 0 0 3px grey;
                     </div>
                 </div>
             </div>
-	    <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-briefcase"></i>
-                    <div class="content">
-                        <h4>FinTech</h4>
-                        <p>
-                            Fintech trend covers a range of payment options, including virtual currency and blockchain. The Fintech Times calls these technologies an “Internet of Payments”.Example applications include innovations in risk management, trading, investing, personal finance, big data, retail banking, regulatory compliance, mobile payments and enterprise social.
-
-
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="icon_box_one">
                     <i class="lnr lnr-eye"></i>
@@ -420,32 +406,22 @@ box-shadow: inset 0 0 3px grey;
                 </div>
             </div>
         </div>
-	<div class="col-md-3 col-sm-6 style="padding-right: 10px;padding-left: 10px">
+<!--         <div class="col-md-3 col-sm-6 style="padding-right: 10px;padding-left: 10px">
             <div class="speaker_box">
                 <div class="speaker_img"style="width: 200px ">
-                    <a href="https://cloudsploit.com"><img src="assets/img/speakers/s6.png"  alt="speaker name"></a>
+                    <a href="https://www.codepark.in/"><img src="assets/img/speakers/s6.png"  alt="speaker name"></a>
                     <div class="info_box">
-                        <h5 class="name">CloudSploit</h5>
+                        <h5 class="name">CodePark</h5>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="col-md-3 col-sm-6 "style="padding-right: 10px;padding-left: 10px">
             <div class="speaker_box">
                 <div class="speaker_img" style="width: 200px">
                     <a href="https://codingblocks.com/"><img src="assets/img/speakers/s7.png" alt="speaker name"></a>
                     <div class="info_box">
                         <h5 class="name">CodingBlocks</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-	<div class="col-md-3 col-sm-6 "style="padding-right: 10px;padding-left: 10px">
-            <div class="speaker_box">
-                <div class="speaker_img" style="width: 200px">
-                    <a href="https://www.axure.com"><img src="assets/img/speakers/s10.png" alt="speaker name"></a>
-                    <div class="info_box">
-                        <h5 class="name">Axure</h5>
                     </div>
                 </div>
             </div>
@@ -670,5 +646,27 @@ for (i = 0; i < coll.length; i++) {
 <script src="assets/js/main.js"></script>
 <!-- Compiled and minified JavaScript -->
 <script src="assets/js/app.js"></script>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+    let devfolioOptions = {
+        buttonSelector: '#devfolio-apply-now',
+        key: 'Parallax',
+    }
+
+    let script = document.createElement('script');
+    script.src = "https://apply.devfolio.co";
+    document.head.append(script);
+
+    script.onload = function () {
+        new Devfolio(devfolioOptions);
+    }
+
+    script.onerror = function () {
+        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+        });
+    }
+});
+</script>
 </body>
 </html>
