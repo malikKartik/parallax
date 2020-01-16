@@ -668,6 +668,7 @@ for (i = 0; i < coll.length; i++) {
 <script src="assets/js/wow.min.js"></script>
 <!-- Custom js -->
 <script src="assets/js/main.js"></script>
+<script src="assets/js/app.js"></script>
 <!-- Compiled and minified JavaScript -->
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function () {
@@ -690,17 +691,6 @@ for (i = 0; i < coll.length; i++) {
         });
     }
 });
-</script>
-<script>
- if ('serviceWorker' in navigator) {
-    console.log("Will the service worker register?");
-    navigator.serviceWorker.register('service-worker.js')
-      .then(function(reg){
-        console.log("Yes, it did.");
-     }).catch(function(err) {
-        console.log("No it didn't. This happened:", err)
-    });
- }
 </script>
 </body>
 </html>
