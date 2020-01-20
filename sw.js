@@ -2,6 +2,9 @@ const staticCacheName = 'site-static';
   const assets = [
     '/',
     '/index.html',
+    '/timeline1.html',
+    '/timeline2.html',
+    '/timeline3.html',
     '/assets/css/animate.min.css',
     '/assets/css/bootstrap.min.css',
     '/assets/css/et-line.css',
