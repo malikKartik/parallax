@@ -133,6 +133,15 @@ $(document).ready(function() {
         /* --------------------------------------------------------
     MAPS
     ----------------------------------------------------------- */
+ $('.accordion-control').each(function(){
+  //when an accordion button is clicked...
+  $(this).on('click', function(e){
+    e.preventDefault(); //prevent default action of button
+    //get the element the user clicked on. Select the following panel...if not currently animating use slide toggle to show or hide
+    $(this).next('.accordion-panel').not(':animated').slideToggle(200);
+    $(this).toggleClass('open');
+  });
+});
     var map = $('#map');
     if(map.length > 0) {
         google.maps.event.addDomListener(window, 'load', init);
