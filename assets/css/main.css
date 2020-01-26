@@ -3264,11 +3264,12 @@ textarea.form-control {
   background-color: #9a9a9a;
   color:#FF4B4B;
   background-color: #101010;
-  border-radius: 5px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius:20px;
   margin-bottom: 10px;
 }
 
-.accordion-control::before { 
+/* .accordion-control::before { 
   content: '';
   position: absolute;
   right: 20px;
@@ -3279,20 +3280,20 @@ textarea.form-control {
   
   transform: rotate(-45deg);
   transition: all 0.2s;
-}
+} */
 button:focus {
     outline: none;
     background-color: #101010;
 }
-.accordion-control.open::before { 
+/* .accordion-control.open::before { 
   top: 16px;
   right: 22px;
   height: 18px;
   transform: rotate(45deg);
 
-}
+} */
 
-.accordion-control::after { 
+/* .accordion-control::after { 
   content: '';
   position: absolute;
   right: 20px;
@@ -3309,7 +3310,7 @@ button:focus {
   top: 16px;
   height: 18px;
   transform: rotate(135deg);
-}
+} */
 
 .accordion-panel {
   display: none;
