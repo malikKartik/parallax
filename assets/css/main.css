@@ -3329,4 +3329,31 @@ button:focus {
 li {
   list-style: none;
 }
+/* persistence challenge button */
+ .btn-primar {
+  background-color: black;
+  color: #ffffff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.btn-primar:hover {
+  background-color: #18181c;
+  color: #ffffff;
+  border: solid 1px #18181c;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
 
+.btn-primar-outline {
+  background-color: transparent;
+  border: solid 1px #f50136;
+  color: #f50136;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.btn-primar-outline:hover {
+  background-color: #f50136;
+  color: #ffffff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
