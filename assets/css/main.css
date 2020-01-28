@@ -1850,6 +1850,7 @@ footer .newsletter_form .form-control {
   margin: 0;
   list-style: none;
   direction: rtl;
+  width:310px;
 }
 .copyright_footer ul.footer_menu li {
   display: inline-block;
