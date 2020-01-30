@@ -3360,3 +3360,6 @@ li {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
+.card{
+  background-color: black;
+}
