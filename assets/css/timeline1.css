@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Oswald:400,300,700);
  body {
-   background: linear-gradient(25deg, #100803, rgba(16, 8, 3, 0)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/106403/Skies0258_3_download600%5B1%5D.jpg);
+   background:  url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/106403/Skies0258_3_download600%5B1%5D.jpg);
    font-size: 16px;
 }
  strong {
