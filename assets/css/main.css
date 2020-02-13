@@ -3363,3 +3363,27 @@ li {
 .card{
   background-color: black;
 }
+/*components available*/
+.img-wrapper {
+  position: relative;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 70px;
+  border-radius: 20px;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+ 
