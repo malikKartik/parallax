@@ -98,3 +98,12 @@ height: 40px;
 display: inline-block;
 }
  
+@keyframes glowing {
+  0% { box-shadow: 0 0 -0px #e33c3c; }
+  40% { box-shadow: 0 0 50px #e33c3c; }
+  60% { box-shadow: 0 0 50px #e33c3c; }
+  100% { box-shadow: 0 0 -10px #e33c3c; }
+}
+.timeline {
+ animation: glowing 2000ms infinite;
+}
