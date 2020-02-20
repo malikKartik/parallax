@@ -24,11 +24,11 @@ text-align: center;
 vertical-align: center;
 }
 .menu__container {
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20vh;
+  margin-top: 10vh;
   margin-bottom: 50px;
   border-radius: 5px;
   cursor: pointer;
@@ -38,11 +38,11 @@ vertical-align: center;
   animation-name: animate;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  transform: perspective(1000px) rotateX(35deg) rotateY(4deg) rotateZ(-30deg);
+  
   z-index: 1;
 }
 .first{
-  background-image: url(prizes/1.png);
+  background-image: url(prizes/surya1.png);
 }
 .second{
   background-image: url(prizes/2.png);
@@ -50,21 +50,12 @@ vertical-align: center;
 .third{
   background-image: url(prizes/3.png);
 }
-.ui{
-  background-image: url(prizes/ui.png);
-}
-.cloud{
-  background-image: url(prizes/cloud.png);
-}
-.matic{
-  background-image: url(prizes/matic.png);
-}
-.persistence{
-  background-image: url(prizes/persistence.png);
+.hardware{
+  background-image: url(prizes/hardware2.png);
 }
 .menu__container:hover {
   animation: unset;
-  margin-top: 18vh;
+  margin-top: 8vh;
 
   transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
@@ -119,4 +110,13 @@ vertical-align: center;
   100% {
     margin-top: 20vh;
   }
+}
+ @keyframes glowing {
+  0% { box-shadow: 0 0 -0px #e33c3c; }
+  40% { box-shadow: 0 0 30px #e33c3c; }
+  60% { box-shadow: 0 0 30px #e33c3c; }
+  100% { box-shadow: 0 0 -10px #e33c3c; }
+}
+.menu__container {
+ animation: glowing 3000ms infinite;
 }
