@@ -72,7 +72,7 @@ $(document).ready(function() {
     });
 
     $(".countdown")
-        .countdown("2020/02/21", function(event) {
+        .countdown("2020/02/22", function(event) {
             $(this).html(
                 event.strftime('<div>%w <span>Weeks</span></div>  <div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
             );
