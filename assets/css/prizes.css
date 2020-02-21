@@ -53,6 +53,21 @@ vertical-align: center;
 .hardware{
   background-image: url(prizes/hardware2.png);
 }
+.matic{
+  background-image: url(prizes/matic.png);
+}
+.persistence{
+  background-image: url(prizes/persistence.png);
+}
+.website{
+  background-image: url(prizes/website.png);
+}
+.ui{
+  background-image: url(prizes/ui.png);
+}
+.sketch{
+  background-image: url(prizes/sketch.png);
+}
 .menu__container:hover {
   animation: unset;
   margin-top: 8vh;
