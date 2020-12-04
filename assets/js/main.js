@@ -59,9 +59,9 @@ $(document).ready(function() {
     });
 
     $(".countdown")
-        .countdown("2020/02/21", function(event) {
+        .countdown("2020/02/22", function(event) {
             $(this).html(
-                event.strftime('<div>%w <span>Weeks</span></div>  <div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
+                event.strftime('  <div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
             );
         });
      
@@ -72,7 +72,7 @@ $(document).ready(function() {
     });
 
     $(".countdown")
-        .countdown("2020/02/21", function(event) {
+        .countdown("2020/02/22", function(event) {
             $(this).html(
                 event.strftime('<div>%w <span>Weeks</span></div>  <div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
             );
@@ -133,6 +133,15 @@ $(document).ready(function() {
         /* --------------------------------------------------------
     MAPS
     ----------------------------------------------------------- */
+ $('.accordion-control').each(function(){
+  //when an accordion button is clicked...
+  $(this).on('click', function(e){
+    e.preventDefault(); //prevent default action of button
+    //get the element the user clicked on. Select the following panel...if not currently animating use slide toggle to show or hide
+    $(this).next('.accordion-panel').not(':animated').slideToggle(200);
+    $(this).toggleClass('open');
+  });
+});
     var map = $('#map');
     if(map.length > 0) {
         google.maps.event.addDomListener(window, 'load', init);
